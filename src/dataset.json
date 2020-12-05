@@ -1,0 +1,90 @@
+{
+    "init": {
+        "answers": [
+            {"content": "上坂について知りたい", "nextId": "profile"},
+            {"content": "クィディッチについて知りたい", "nextId": "quidditch"},
+            {"content": "ブログやサイト制作について相談したい", "nextId": "consult"},
+            {"content": "お話したい", "nextId": "talking"}
+        ],
+        "question": "こんにちは！ご用件はなんでしょうか？"
+    },
+    "profile": {
+        "answers": [
+            {"content": "経歴が知りたい", "nextId": "carrer"},
+            {"content": "趣味が知りたい", "nextId": "hobby"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "興味を抱いていただきありがとうございます！経歴や趣味などをご紹介します！"
+    },
+    "carrer": {
+        "answers": [
+            {"content": "詳しいプロフィールを見る", "nextId": "https://app.dr.works/users/a6702e69-f4cd-454e-a46b-f0d7f2d399ac"},
+            {"content": "話を聞いてみたい", "nextId": "talking"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "慶應大学経済学部在学中です！都内の会社でクラウドサービスを作っています！"
+    },
+    "hobby": {
+        "answers": [
+            {"content": "クィディッチについて知りたい！", "nextId": "quidditch"},
+            {"content": "一緒にサービス作りたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "クィディッチの日本代表です！ネットサービスも作っています！"
+    },
+    "quidditch": {
+        "answers": [
+            {"content": "練習の詳細が知りたい", "nextId": "quidditch_activity"},
+            {"content": "とりあえず話を聞いてみたい", "nextId": "talking"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ハリーポッターのスポーツです！一緒にクィディッチしましょう！"
+    },
+    "quidditch_activity": {
+        "answers": [
+            {"content": "練習に参加したい", "nextId": "contact"},
+            {"content": "クィディッチの動画を見る", "nextId": "https://www.youtube.com/watch?v=EqARha-ldzE&t=81s"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "毎週土曜＆隔週水曜に高田馬場にて練習しています！"
+    },
+    "consult": {
+        "answers": [
+            {"content": "ブログの始め方について", "nextId": "blog"},
+            {"content": "webサイト制作について", "nextId": "website"},
+            {"content": "デザインについて", "nextId": "design"},
+            {"content": "その他", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ご希望の相談内容を選んでください！"
+    },
+    "blog": {
+        "answers": [
+            {"content": "一度話を聞いてみる", "nextId": "talking"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ブログを始めるまでの各種設定をサポートします！"
+    },
+    "website": {
+        "answers": [
+            {"content": "一度話を聞いてみる", "nextId": "talking"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ドメインやサーバーの設定、デザインなど全体的にサポートします！"
+    },
+    "design": {
+        "answers": [
+            {"content": "一度話を聞いてみる", "nextId": "talking"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ロゴやサイト、webデザインなら力に慣れるかもしれません！"
+    },
+    "talking": {
+        "answers": [
+            {"content": "オンラインでお話しする", "nextId": "https://app.dr.works/schedules/uesaka/mtg"},
+            {"content": "対面でお話しする", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "対面ご希望の方はまずご連絡ください！"
+    }
+}
